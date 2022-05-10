@@ -1,0 +1,76 @@
+body {
+	background-color: #F9CA70;
+}
+h1 {
+	text-align: center;
+	color: #422F0C;
+	font-size: 1.75em;
+	margin-bottom: 50px;
+}
+div {
+	background-color: #F8DAA1;
+}
+.div-header{
+	color: #422F0C;
+	border: 1px solid;
+	border-color: #422F0C;
+	float: right;
+	margin: 10px;
+	padding: 5px;
+	font-size: 1.25em;
+	background-color: #AC8F5A;
+}
+.content {
+	clear: right;
+	padding: 2px;
+	color: #554322;
+}
+#container{
+	position: relative;
+}
+
+/* css for different devices*/
+/*large devices*/
+@media (min-width: 992px){
+	.col-lg-4{
+	width: 31.833%;
+	border: 1px solid;
+	border-color: #422F0C;
+	box-sizing: border-box;
+	float:left;
+	margin: 0px 0.75% 0px 0.75%;
+	position: relative;
+	}
+}
+/*medium devices*/
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-6{
+	width: 48.5%;
+	border: 1px solid;
+	border-color: #422F0C;
+	box-sizing: border-box;
+	float:left;
+	margin: 0px 0.75% 10px 0.75%;
+	position: relative;
+	}
+	.col-md-12{
+	width:98.5%%;
+	border: 1px solid;
+	border-color: #422F0C;
+	box-sizing: border-box;
+	float: left;
+	margin: 0px 0.75% 0px 0.75%;
+	position: relative;
+	}
+}
+/*small devices*/
+@media (max-width: 767px){
+	.col-sm-12{
+	width:90%;
+	border: 1px solid;
+	border-color: #422F0C;
+	box-sizing: border-box;
+	float:left;
+	position: relative;
+	margin: 10px 5% 10px 5%;
+}
