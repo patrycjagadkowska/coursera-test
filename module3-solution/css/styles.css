@@ -1,0 +1,37 @@
+*{
+	margin: 0;
+}
+body {
+	color: #63291D; /*brown*/
+	background-color: #D8CAC7; /*beige*/
+	font-family: 'Roboto Flex', sans-serif;
+}
+/*HEADER*/
+.navbar-brand a{
+	text-decoration: none;
+	color: #63291D; /*brown*/
+	font-family: 'Koulen', cursive;
+	font-size: 3em;
+}
+.nav-item{
+	text-align: center;
+	border: 1px solid #63291D; /*brown*/
+	background-color: #B1948E; /*darker beige*/
+}
+.navbar a{
+	text-decoration: none;
+	color: #63291D;
+	font-weight: bold;
+
+}
+header{
+	background-color: #57631D; /*dark green*/
+	max-height: 190px;
+}
+#navbarSupportedContent {
+	width: 150%;
+}
+.navbar li{
+	margin-right: -2em;
+	margin-left: -2em;
+}
