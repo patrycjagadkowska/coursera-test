@@ -14,7 +14,6 @@ body {
 	font-size: 3em;
 }
 .nav-item{
-	text-align: center;
 	border: 1px solid #63291D; /*brown*/
 	background-color: #B1948E; /*darker beige*/
 }
@@ -34,4 +33,49 @@ header{
 .navbar li{
 	margin-right: -2em;
 	margin-left: -2em;
+}
+/*END OF HEADER*/
+
+/*MAIN PAGE BODY*/
+h2.text-center{
+	margin: 15px 0 15px;
+}
+.row div {
+	background-color: #C4AAC0;
+	border: 1px solid #57631D;
+}
+.row h3{
+	margin-top: 10px;
+}
+
+/*DIFFERENT DEVICES*/
+/*MEDIUM AND LARGE DEVICES*/
+@media (min-width: 768px){
+	.col-md-4 {
+	margin-left: 1%;
+	margin-right: 1%;
+	width: 31.33%;
+	}
+}
+/*SMALL DEVICES*/
+@media (min-width: 576px) and (max-width: 767px){
+	.col-sm-6:nth-child(1){
+		margin-right: 1%;
+		width: 49%;
+		margin-bottom: 10px;
+	}
+	.col-sm-6:nth-child(2){
+		margin-left: 1%;
+		width: 49%;
+		margin-bottom: 10px;
+	}
+}
+/*EXTRA SMALL DEVICES*/
+@media (max-width: 575px){
+	.row {
+		margin: 0 3% 0 3%
+	}
+	.col-xs-12{
+		margin-bottom: 10px;
+	}
 }
